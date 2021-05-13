@@ -4,7 +4,7 @@ body {
   font-size: 14px;
   line-height: 20px;
 
-
+background-color: black;
 }
 
 #img {
@@ -585,7 +585,7 @@ float: left;
   margin-bottom: 20px;
   opacity: 1;
   font-family: 'Space Grotesk', sans-serif;
-  color: #000;
+  color: white;
   font-size: 28px;
   line-height: 36px;
   font-style: normal;
@@ -912,6 +912,8 @@ float: left;
 }
 
 .lottie-animation-5 {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
   position: fixed;
   left: auto;
   top: auto;
@@ -1400,6 +1402,8 @@ float: left;
 }
 
 .lottie-animation-9 {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
   position: static;
   left: 0px;
   right: 0px;
