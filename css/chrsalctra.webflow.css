@@ -1919,6 +1919,8 @@ float: left;
   }
 
   .lottie-animation-5 {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
     position: absolute;
     top: auto;
     bottom: auto;
