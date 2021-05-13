@@ -687,6 +687,8 @@ float: left;
 }
 
 .lottie-animation-4 {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
   position: fixed;
   left: 0%;
   top: 0px;
