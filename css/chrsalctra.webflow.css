@@ -535,7 +535,7 @@ float: left;
   padding-bottom: 0px;
   padding-left: 0px;
   font-family: 'Space Grotesk', sans-serif;
-  color: #ae00ff;
+  color: white;
   font-size: 70px;
   line-height: 75px;
   font-weight: 700;
@@ -543,7 +543,7 @@ float: left;
 
 .heading-2._0.work {
   position: static;
-  color: #000;
+  color: white;
 }
 
 .heading-2._0.work.alt {
@@ -569,7 +569,7 @@ float: left;
 
 .heading-2._0.title {
   font-family: 'Space Grotesk', sans-serif;
-  color: #000;
+  color: white;
   font-size: 70px;
   line-height: 60px;
   font-weight: 700;
@@ -1710,7 +1710,7 @@ float: left;
   }
 
   .body {
-    background-color: #fff;
+    background-color: black;
   }
 
   .contact-block {
