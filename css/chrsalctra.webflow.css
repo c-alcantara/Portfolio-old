@@ -4,7 +4,7 @@ body {
   font-size: 14px;
   line-height: 20px;
 
-background-color: black;
+
 }
 
 #img {
@@ -267,7 +267,7 @@ float: left;
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: 'Space Grotesk', sans-serif;
-  color: #000;
+  
   font-size: 60px;
   line-height: 5vw;
   font-weight: 400;
@@ -278,7 +278,7 @@ float: left;
   overflow: visible;
   height: 100%;
   padding-top: 1px;
-  background-color: black;
+
 }
 
 .service-block {
