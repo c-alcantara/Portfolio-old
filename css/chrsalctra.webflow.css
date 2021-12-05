@@ -267,7 +267,7 @@ float: left;
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: 'Space Grotesk', sans-serif;
-  
+  color: #000;
   font-size: 60px;
   line-height: 5vw;
   font-weight: 400;
@@ -278,7 +278,7 @@ float: left;
   overflow: visible;
   height: 100%;
   padding-top: 1px;
-
+  background-color: #fff;
 }
 
 .service-block {
@@ -517,7 +517,7 @@ float: left;
   position: relative;
   border: 1px none #000;
   border-radius: 0px;
-  color: white;
+  color: #000;
   font-size: 60px;
   line-height: 65px;
   font-style: normal;
@@ -535,7 +535,7 @@ float: left;
   padding-bottom: 0px;
   padding-left: 0px;
   font-family: 'Space Grotesk', sans-serif;
-  color: white;
+  color: #ae00ff;
   font-size: 70px;
   line-height: 75px;
   font-weight: 700;
@@ -543,7 +543,7 @@ float: left;
 
 .heading-2._0.work {
   position: static;
-  color: white;
+  color: #000;
 }
 
 .heading-2._0.work.alt {
@@ -564,12 +564,12 @@ float: left;
 }
 
 .heading-2._0.skil {
-  color: white;
+  color: #000;
 }
 
 .heading-2._0.title {
   font-family: 'Space Grotesk', sans-serif;
-  color: white;
+  color: #000;
   font-size: 70px;
   line-height: 60px;
   font-weight: 700;
@@ -585,7 +585,7 @@ float: left;
   margin-bottom: 20px;
   opacity: 1;
   font-family: 'Space Grotesk', sans-serif;
-  color: white;
+  color: #000;
   font-size: 28px;
   line-height: 36px;
   font-style: normal;
@@ -687,8 +687,6 @@ float: left;
 }
 
 .lottie-animation-4 {
-  filter: invert(100%);
-  -webkit-filter: invert(100%);
   position: fixed;
   left: 0%;
   top: 0px;
@@ -914,8 +912,6 @@ float: left;
 }
 
 .lottie-animation-5 {
-  filter: invert(100%);
-  -webkit-filter: invert(100%);
   position: fixed;
   left: auto;
   top: auto;
@@ -1404,8 +1400,6 @@ float: left;
 }
 
 .lottie-animation-9 {
-  filter: invert(100%);
-  -webkit-filter: invert(100%);
   position: static;
   left: 0px;
   right: 0px;
@@ -1496,8 +1490,6 @@ float: left;
 }
 
 .lottie-animation-11 {
-  filter: invert(100%);
-  -webkit-filter: invert(100%);
   width: 40px;
   height: 40px;
   margin-left: 10px;
@@ -1609,7 +1601,7 @@ float: left;
   }
 
   .heading-2 {
-    color: white;
+    color: red;
   }
 
   .link {
@@ -1714,7 +1706,7 @@ float: left;
   }
 
   .body {
-    background-color: black;
+    background-color: #fff;
   }
 
   .contact-block {
@@ -1755,7 +1747,7 @@ float: left;
   }
 
   .heading-2 {
-    color: white;
+    color: #000;
   }
 
   .heading-2._0 {
@@ -1921,8 +1913,6 @@ float: left;
   }
 
   .lottie-animation-5 {
-    filter: invert(100%);
-    -webkit-filter: invert(100%);
     position: absolute;
     top: auto;
     bottom: auto;
@@ -2111,11 +2101,3 @@ float: left;
   100% { opacity: 0 }
 }
 
-.footer {
-    position: fixed; 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-text-align: center;
-}
