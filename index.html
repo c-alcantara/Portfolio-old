@@ -50,7 +50,7 @@ if(("standalone" in window.navigator) && window.navigator.standalone){
 	<div id='spline' class='spline'>
 		
 		<canvas id="canvas3d" class="invert" ></canvas>
-		
+			<canvas id="canvas3d2" class="blur" ></canvas>
 		
 		
 	</div>
@@ -68,6 +68,16 @@ if(("standalone" in window.navigator) && window.navigator.standalone){
 	
    <script> function myFunction() {
 	   var spline=document.getElementById('canvas3d');
+	   setTimeout(function(){
+	   $('.spline').remove();
+	
+	 }, 7000);
+	 }
+	 myFunction();
+	   
+	   </script>
+	<script> function myFunction() {
+	   var spline=document.getElementById('canvas3d2');
 	   setTimeout(function(){
 	   $('.spline').remove();
 	
