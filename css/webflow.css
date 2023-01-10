@@ -55,6 +55,10 @@ body {
   color: #333;
 
 }
+.invert {
+  filter: invert(100%);
+  -webkit-filter:invert(100%);
+}
 img {
   max-width: 100%;
   vertical-align: middle;
